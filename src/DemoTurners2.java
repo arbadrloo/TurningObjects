@@ -1,7 +1,7 @@
 public class DemoTurners2 {
     public static void main(String[] args) {
         Turner[] turners = new Turner[] {new Leaf(),new Page(),new Pancake(),
-                new Window(), new Wheel()};
+                new Window(), new Wheel(), new Moustache()};
 
         for (Turner turner : turners) {
             turner.turn();
